@@ -1,7 +1,7 @@
 function range(start, end, step){
-  const result = []
+  const result = [];
   if (start > end || step < 0 || start === undefined || end === undefined || step === undefined) {
-    return result
+    return result;
   }
   result.push(start);
   while (start < end - 1) {
